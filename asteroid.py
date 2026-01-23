@@ -4,10 +4,9 @@ from circleshape import CircleShape
 
 class Asteroid(CircleShape):
     """Class representing an asteroid in the game."""
-    def __init__(self, x, y, radius):
+    def __init__(self, x, y, radius, *args):
         super().__init__(x, y, radius)
         
-       
 
     def draw(self, surface):
         pygame.draw.circle(surface, ("white"), self.position, self.radius, LINE_WIDTH)

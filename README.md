@@ -1,48 +1,48 @@
-🚀 Asteroids – Python Game
+# Asteroids 🚀 — 2D Game Engine Fundamentals with Python
 
-A simple and fun game inspired by the classic Asteroids, built using Python. Control a spaceship, move across the screen, and shoot asteroids while trying to survive.
-The game was created as a learning project from Boot.dev.
+Implementación del clásico **Asteroids** utilizando **Python y Pygame**, desarrollada para profundizar en arquitectura de software, modelado de objetos y sistemas de tiempo real.
+
+El proyecto simula un entorno de juego 2D con manejo de físicas simples, colisiones, generación de enemigos y control del jugador mediante un game loop tradicional.
+
+---
+
+## 🎮 Demo
+
+### 🎥 Gameplay
+
+![Gameplay](docs/demo.gif)
+
+---
+
+## 🧩 Descripción del sistema
+
+El jugador controla una nave que puede rotar, desplazarse y disparar proyectiles para destruir asteroides.  
+El motor del juego administra:
+
+- ciclo principal de actualización (update/render)
+- detección de colisiones
+- manejo de entidades
+- creación y destrucción de objetos
+- control de entrada del usuario
+---
+
+## 🛠️ Tecnologías
+
+- Python 3
+- Pygame
+
+---
+
+## ▶️ Ejecución del proyecto (usando uv)
+
+### Requisitos
+- Python instalado
+
+### Crear entorno e instalar dependencias
+```bash
+uv venv
+uv pip install pygame
+uv run main.py
 
 
-
-**Prerequisites**
-
-Before running the game, make sure you have the following installed:
-  
-  Python 3.10+
-  uv project/package manager
-  Access to a Unix-like shell (e.g., zsh or bash)
-
-**Installation**
-
-Clone the repository:
-
-  git clone <repository-url>
-  cd asteroids-game
-
-**Install dependencies using uv:**
-
-  uv sync
-
-**How to Run**
-
-  uv run python main.py
-
-(Adjust the file name if your entry point is different.)
-
-**Controls**
-
-  Arrow keys – Move the spaceship
-  
-  Space bar – Shoot
-  
-  Esc – Exit the game
-
-**Future Improvements**
-
-  Add scoring system
-  
-  Add sound effects
-  
-  Add multiple levels or difficulty scaling
 
